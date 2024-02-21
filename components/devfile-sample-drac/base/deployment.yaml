@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-drac
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0044-tenant/tkrw-pr712-0075-0044-app/devfile-sample-drac@sha256:46ed195ce19cd7cc606e0c964bc092d50b1ecd15aa4c527c9ceaea04c2b36acc
         name: my-nodejs
         ports:
         - containerPort: 3001
